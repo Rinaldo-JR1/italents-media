@@ -29,5 +29,4 @@ for (let i = 0; i < quantidadeDeMaterias; i++) {
 }
 
 Aluno.mediaFinal = Media(Aluno.materias.map(materia => materia.media), quantidadeDeMaterias)
-Aluno = Status(Aluno)
-console.log(Aluno)
+Status(Aluno)
